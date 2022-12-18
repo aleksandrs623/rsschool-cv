@@ -1,9 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+          </nav>
+        </div>  
+    </header>
+    <main>
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <img src="photo.jpg" alt="my-photo" class="photo">
+                <h1 class="name">Aleksandrs Čursinovs</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2>Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item">Latvia, Riga</li>
+                    <li class="contacts-item">Phone: +371 28309471</li>
+                    <li class="contacts-item">Email: alexandr.cursinov@gmail.com</li>
+                    <li class="contacts-item">Discord: Aleksandrs#8256</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2>Summary</h2>
+                <p>I would like to try obtain new specialization. Always interested in new technologies and wanted to know how people bring such complex things to life. It is important for me to know that my work will benefit the world and people. I would like to pass this course and start working in the field of programming because it inspires me.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-items">GIT</li>
+                    <li class="skills-items">HTML</li>
+                    <li class="skills-items">CSS</li>
+                    <li class="skills-items">JavaScript</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2>Code</h2>
+                <pre>
+                    <code>function solution(str){
+                    let result = ''                
+                    for (let i of str){
+                      result = i + result
+                    }
+                      return result
+                    }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <ul class="education-list">
+                    <li class="education-items">Latvian Maritime Academy (2012-2017)</li>
+                        <ul>
+                            <li class="education-items">Professional Bachelor’s degree in maritime transport</li>
+                        </ul>
+                    <li class="education-items">Riga 89 Secondary School (2000-2012)</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2>Languages</h2>
+                <ul class="languages-list">
+                    <li class="languages-items">English - B1/B2</li>
+                    <li class="languages-items">Latvian - fluently</li>
+                    <li class="languages-items">Russian - native</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            
+        </div>
+    </footer>
 </body>
 </html>
